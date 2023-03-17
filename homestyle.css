@@ -1,0 +1,239 @@
+@import bourbon;
+body{
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.container-fluid{
+  background-image: url('main_image_bw.png');
+  background-size:contain;
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 100%;
+
+}
+
+.log{
+  background-color: black;
+  font-size: 20px;
+  margin-top: 10px;
+  padding-bottom: 10p;
+}
+.block{
+    width: 100%;
+    width: 400px;
+    height: 500px;
+    float: left;
+    margin-top: 110px;
+    margin-left: 20px;
+    margin-right: 12px;
+}
+
+.na{
+  margin: 30px;
+}
+#fix{
+  color: white;
+}
+
+.explore{
+  margin-left: -60px;
+  margin-top: 100px;
+  color: white;
+}
+.input-group-prepend{
+ border-radius: 26px 26px 26px 26px;
+-moz-border-radius: 26px 26px 26px 26px;
+-webkit-border-radius: 26px 26px 26px 26px;
+border: 0px solid #000000;
+}
+.b{
+    margin-top: 260px;
+    margin-left:;
+     width: 350px;
+
+    height: 70px;
+    border: white 2px solid;
+    border-radius: 19px;
+    -webkit-box-shadow: -11px 14px 17px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: -11px 14px 17px 1px rgba(0,0,0,0.75);
+box-shadow: -11px 14px 17px 1px rgba(0,0,0,0.75);
+}
+.b:hover{
+      background-color:white;
+}
+.b p{
+  text-align: center;
+}
+.b a{
+ color:white;
+ font-family:;
+ font-size:40px;
+ text-decoration: none;
+
+ /* text-size-adjust:30px; */
+ /* text-shadow: tomato; */
+}
+.b a:hover{
+  color :rgb(187, 31, 31);
+  font-size: 40px;
+}
+/* search bar */
+form .form-control{
+  background-color:transparent;
+}
+form .form-control:hover{
+      background-color:white;
+}
+
+.login{
+  margin-left: 60px;
+
+}
+form .form-control::-webkit-input-placeholder {
+  color: rgb(255, 255, 255);
+}
+form .form-control:hover::-webkit-input-placeholder {
+  color: rgb(148, 16, 16);
+}
+/* device adjuestment */
+
+/* this is step  two ------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------*/
+.container{
+  height: 100%;
+  height: 200px;
+  position: relative;
+  /* background-color: thistle; */
+  margin-top: -50px;
+  
+display: flex;
+flex-direction: row;
+/* flex-wrap: wrap; */
+justify-content: space-evenly;
+transition: transform 0.2s;
+}
+.container:hover .symbols{
+   filter: blur(5px);
+ transform: scale(.9);
+
+}
+.container .symbols{
+  position: relative;
+  /* background-color: tomato; */
+  height: 200px;
+  width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  margin-top: 25px;
+  transition: transform 0.2s;
+
+
+}
+.container .symbols:hover{
+  filter: blur(0px);
+  transform: scale(1.25);
+    -webkit-box-shadow: -2px -2px 39px 9px rgba(0,0,0,0.63);
+-moz-box-shadow: -2px -2px 39px 9px rgba(0,0,0,0.63);
+box-shadow: -2px -2px 39px 9px rgba(0,0,0,0.63);
+}
+/* step tree-----------------------------
+
+--------------------------------------------*/
+.bigbox{
+   height: 100%;
+  height: 600px;
+  /* background-color: teal; */
+
+}
+.box{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  min-height: 550px;
+  width: 500px;
+  margin: 25px;
+  background-color:white;
+}
+.box img{
+  width:380px ;
+  height:500px;
+  /* background-image: url('wedding.png'); */
+  /* background: linear-gradient(0deg, rgb(43, 45, 46),#fff 50%); */
+}
+.box ul{
+  text-align: left;
+  margin-left: 60px;
+}
+.box li{
+list-style-type:none;
+padding: 8px;
+}
+.block-1{
+   width: 100%;
+   height: 200px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   margin-bottom: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgb(153, 153, 153);
+  color :white;
+}
+
+@media (min-width: 576px) {
+ .block-1 {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+.block-1 {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+ .block-1 {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+.block-1 {
+    max-width: 1330px;
+  }
+}
+.block-1 h1{
+  letter-spacing: 3px;
+}
+
+.block button{
+margin-left: 600px;
+}
+.container .profile img{
+  width: 250px;
+  height: 250px;
+}
+.container .profile{
+  
+  font-size: 12px;
+}
+.container .profile{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20px;
+  margin-right: 20px;
+  min-height: 440px;
+   min-width: 250px;
+   margin-bottom: 100px; 
+  margin-top:120px; 
+ display: inline-block;
+  vertical-align: middle;
+}
